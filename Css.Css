@@ -1,0 +1,55 @@
+.paren{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 20px;
+}
+body{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+height: 100vh;
+background: linear-gradient(#111,#222);
+
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 50%;
+    position: relative;
+    top: 10px;
+    justify-content: right;
+}
+.Head{
+    display: flex;
+   justify-content: space-around;
+   padding: 10px;
+  
+}
+*{
+    font-family: sans-serif;
+    color: white;
+ }
+ .Tit{
+    width: 50px;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 62px;
+    letter-spacing: 2px;
+ }
+ .txt{
+    margin: 20px;
+    margin-left: 62px;
+    font-size: 20px;
+    width: 33%;
+    position: relative;
+    bottom: 8px;
+ }
